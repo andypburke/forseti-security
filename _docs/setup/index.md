@@ -9,29 +9,26 @@ Platform (GCP) environments.
 
 ---
 
-**[Installing Forseti Security]({% link _docs/setup/install.md %})**
+| **[Installing Forseti Security]({% link _docs/setup/install.md %})** |
+| :---------------------------------------------------------------------------- |
+| Install Forseti Security to help protect your GCP environments by monitoring your Google Cloud Platform resources to ensure that role-based access controls are set as you intended. The setup wizard automatically determines setup information, generates a deployment template, and creates a Forseti deployment. |
 
-Installing Forseti Security to help protect your GCP environments.
+| **[Upgrading Forseti]({% link _docs/setup/upgrade.md %})** |
+| :---------------------------------------------------------------------------- |
+| Get new features and update your Google Cloud Platform deployment by upgrading your Forseti Security installation to the latest version. |
 
-**[Upgrade]({% link _docs/setup/upgrade.md %})**
+| **[Inventory]({% link _docs/quickstarts/inventory/index.md %})** |
+| :---------------------------------------------------------------------------- |
+| Set up Inventory to collect and store information about your Google Cloud Platform resources. Inventory helps you undersand your resources and take action to conserve resources, reduce cost, and minimize security exposure. |
 
-Upgrade your Forseti Security installation to the latest version.
+| **[Scanner]({% link _docs/quickstarts/scanner/index.md %})** |
+| :---------------------------------------------------------------------------- |
+| Set up Scanner to monitor your Google Cloud Platform resources for rule violations. Scanner uses the information from Inventory to regularly compare role-based access policies for your resources. |
 
-**[Inventory]({% link _docs/quickstarts/inventory/index.md %})**
+| **[Enforcer]({% link _docs/quickstarts/enforcer/index.md %})** |
+| :---------------------------------------------------------------------------- |
+| Set up Enforcer to automatically correct policy discrepancies. Enforcer uses policies you create to compare the current state of your Compute Engine firewall to the desired state and uses Google Cloud APIs to make changes if it finds any differences. |
 
-Setting up Inventory to collect and store information about your Google Cloud
-Platform resources.
-
-**[Scanner]({% link _docs/quickstarts/scanner/index.md %})**
-
-Setting up Scanner to monitor your Google Cloud Platform resources for rule
-violations.
-
-**[Enforcer]({% link _docs/quickstarts/enforcer/index.md %})**
-
-Setting up Enforcer to automatically correct policy discrepancies.
-
-**[IAM Explain]({% link _docs/quickstarts/explain/index.md %})**
-
-Setting up IAM Explain to help you understand, test, and develop Cloud Identity
-and Access Management (Cloud IAM) policies.
+| **[IAM Explain]({% link _docs/quickstarts/explain/index.md %})** |
+| :---------------------------------------------------------------------------- |
+| Set up IAM Explain to help you understand, test, and develop Cloud Identity and Access Management (Cloud IAM) policies. |
